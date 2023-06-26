@@ -15,8 +15,10 @@ Step 1: Import the required modules:
 First, import the necessary modules to establish the connection and interact with the database. In this case, we will use the mysql.connector module.
 
 import mysql.connector
+
 Step 2: Establish the connection:
 Next, establish a connection with the MySQL database using the connect() function from the mysql.connector module. You need to provide the host, user, password, and database details specific to your setup.
+
 
 mydb = mysql.connector.connect(
   host="localhost",
